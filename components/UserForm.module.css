@@ -1,0 +1,92 @@
+.formContainer {
+    width: 100%;
+    max-width: 650px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+}
+
+.label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.input::placeholder {
+    color: #888;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.checkboxLabel {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.link {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.radioContainer {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.radioLabel {
+    font-size: 0.9rem;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #ff9900;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.submitButton:hover {
+    background-color: #e68a00;
+}
